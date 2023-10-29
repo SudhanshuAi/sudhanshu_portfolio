@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+.test-wrapper{
+display: block;
+width: 368px;
+height: 179px;
+border-radius: 16px;
+background-color: #191824;
+padding: 24px 28px; 
+}
+.mySwiper1{
+    margin-top: 10vh;
+}
+.userImg
+{
+    width: 44px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 22px;
+margin-top: 0vh;
+margin-left: 2vh;
+}
+.user-wrapper{
+    display: inline-block;
+    padding-bottom: 1vh;
+}
+.user-wrapper h1{
+    color: #F4F0FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin-left: 1vw;
+    margin-bottom: 0vh;
+}
+.user-wrapper p{
+    color: rgba(239, 237, 253, 0.60);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+margin-left: 1vw;
+margin-top: 0px;
+margin-bottom: 1vh;
+}
+
+.review-wrapper p{
+    color: rgba(239, 237, 253, 0.70);
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-left: 0vw;
+}
+.review-wrapper{
+    margin-left: 1vw;
+}
+

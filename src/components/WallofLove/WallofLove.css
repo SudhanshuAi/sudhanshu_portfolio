@@ -1,0 +1,39 @@
+.wall-heading-wrapper{
+    text-align: start;
+    font-family: 'Cabin', sans-serif;
+    font-size: 3.888888888888889vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.444444444444445vw; /* 114.286% */
+    background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0vh 0vw 0vw 8vw ;
+margin-bottom: 0px;
+}
+section p {
+    margin: 2vh 0vw 0vw 8vw ;
+    text-align: start;
+    color: rgba(239, 237, 253, 0.70);
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+/* WallofLove.css or your custom CSS file */
+.slider-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlap-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000000; /* Ensure the image is on top */
+
+  }
+  
