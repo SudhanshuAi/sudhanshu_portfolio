@@ -1,59 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-.case-heading-wrapper{
+
+.case-heading-wrapper {
     text-align: start;
     font-family: 'Cabin', sans-serif;
     font-size: 3.888888888888889vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 4.444444444444445vw; /* 114.286% */
+    line-height: 4.444444444444445vw;
+    /* 114.286% */
     background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin: 0vh 0vw 0vw 8vw ;
-margin-bottom: 0px;
-}
-.case-study-wrapper{
-    margin: 5vh 0vw 0vw 5vw ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0vh 0vw 0vw 8vw;
     margin-bottom: 0px;
-    width: 66.66666666666667vw;
-    margin-left:25vw ;
 }
-.cases p{
+
+.case-study-wrapper {
+    margin: 5vh 0vw 0vw 5vw;
+    margin-bottom: 0px;
+    width: 86.66666666666667vw;
+    margin-left: 8vw;
+}
+
+.cases p {
     color: rgba(219, 219, 219, 0.60);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8055555555555556vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 2.2222222222222223vw; /* 123.077% */
+    line-height: 2.2222222222222223vw;
+    /* 123.077% */
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0;
 }
 
-.cases h1{
+.cases h1 {
     color: #FFF;
-font-family: Cabin;
-font-size: 2.2222222222222223vw;
-font-style: normal;
-font-weight: 400;
-line-height: 3.3333333333333335vw; /* 150% */
-margin-top: 1vh;
+    font-family: Cabin;
+    font-size: 2.2222222222222223vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.3333333333333335vw;
+    /* 150% */
+    margin-top: 1vh;
 }
-.cases img{
+
+.cases img {
     position: relative;
     width: 44px;
-height: 32.14px;
-top:10vh;
-text-align: end;
-}
-.link{
+    height: 32.14px;
+    top: 10vh;
     text-align: end;
 }
 
-.cases:hover{
-    background-color: none; /* Change the background color on hover (LinkedIn blue) */
-    transform: scale(1.05); /* Scale up the element on hover */
-    cursor: pointer; /* Change cursor to a pointer on hover */
+.link {
+    text-align: end;
+}
+
+.cases:hover {
+    background-color: none;
+    /* Change the background color on hover (LinkedIn blue) */
+    transform: scale(1.05);
+    /* Scale up the element on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Footer/Footer.css";
+import { LinkOutlined, GithubOutlined } from "@ant-design/icons";
 const Footer = () => {
   return (
     <footer style={{ paddingTop: "15vh" }} id="contact">
@@ -15,7 +16,7 @@ const Footer = () => {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            href="https://www.linkedin.com/in/ayush-shivhare-181a88223/"
+            href="https://www.linkedin.com/in/sudhanshu-yadav-48099a227/"
           >
             <div className="social-wrapper2">
               <div>
@@ -115,57 +116,19 @@ const Footer = () => {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            href="https://twitter.com/Ayush_shivhare1"
+            href="https://github.com/SudhanshuAi?tab=repositories"
           >
             <div className="social-wrapper2">
               <div className="">
                 <div style={{ marginLeft: "0.5vw" }} className="logo-wrapper">
                   <div className="logo-container">
-                    <svg
-                      width="34"
-                      height="35"
-                      viewBox="0 0 24 25"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_252_6672)">
-                        <mask
-                          id="mask0_252_6672"
-                          style={{ maskType: "luminance" }}
-                          maskUnits="userSpaceOnUse"
-                          x="0"
-                          y="0"
-                          width="24"
-                          height="25"
-                        >
-                          <path
-                            d="M24 0.121094H0V24.1211H24V0.121094Z"
-                            fill="white"
-                          />
-                        </mask>
-                        <g mask="url(#mask0_252_6672)">
-                          <path
-                            d="M12 24.1211C5.385 24.1211 0 18.7361 0 12.1211C0 5.50609 5.385 0.121094 12 0.121094C18.615 0.121094 24 5.50609 24 12.1211C24 18.7361 18.615 24.1211 12 24.1211ZM22.12 13.7631C21.77 13.6531 18.95 12.8101 15.736 13.3251C17.076 17.0091 17.623 20.0091 17.728 20.6331C20.028 19.0781 21.664 16.6131 22.123 13.7631H22.12ZM16.005 21.5711C15.852 20.6711 15.255 17.5391 13.815 13.8011L13.749 13.8211C7.959 15.8361 5.889 19.8461 5.709 20.2211C7.439 21.5791 9.629 22.3871 11.999 22.3871C13.419 22.3871 14.769 22.0971 15.999 21.5731L16.005 21.5711ZM4.385 18.9911C4.617 18.5911 7.43 13.9361 12.717 12.2261C12.852 12.1811 12.987 12.1421 13.122 12.1061C12.862 11.5211 12.582 10.9391 12.29 10.3661C7.17 11.8961 2.206 11.8311 1.756 11.8211L1.752 12.1331C1.752 14.7661 2.75 17.1701 4.386 18.9881L4.385 18.9911ZM1.965 10.0361C2.425 10.0441 6.648 10.0621 11.442 8.78809C9.744 5.77009 7.912 3.23009 7.642 2.86009C4.774 4.21009 2.632 6.85009 1.966 10.0301L1.965 10.0361ZM9.6 2.17309C9.882 2.55309 11.745 5.08709 13.422 8.17309C17.067 6.80809 18.612 4.73309 18.795 4.47109C16.985 2.86109 14.605 1.88509 12 1.88509C11.175 1.88509 10.37 1.98509 9.6 2.17009V2.17309ZM19.935 5.65609C19.717 5.94609 18 8.14909 14.211 9.69609C14.451 10.1861 14.681 10.6811 14.891 11.1821C14.971 11.3621 15.041 11.5421 15.111 11.7121C18.521 11.2821 21.911 11.9721 22.251 12.0421C22.231 9.62209 21.371 7.40209 19.941 5.66209L19.935 5.65609Z"
-                            fill="#EA4C89"
-                          />
-                        </g>
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_252_6672">
-                          <rect
-                            width="24"
-                            height="24"
-                            fill="white"
-                            transform="translate(0 0.121094)"
-                          />
-                        </clipPath>
-                      </defs>
-                    </svg>
+                  <GithubOutlined style={{ fontSize: '44px',color:"white" }} />
+
                   </div>
                 </div>
                 <div className="detail-wrapper">
-                  <h1>Medium</h1>
-                  <p>See My Works</p>
+                  <h1>GitHub</h1>
+                  <p>See My Work</p>
                 </div>
               </div>
             </div>
@@ -173,57 +136,24 @@ const Footer = () => {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            href="https://twitter.com/Ayush_shivhare1"
+            href="mailto:sudhanshu26uv@gmail.com"
           >
             <div className="social-wrapper2">
               <div className="">
-                <div style={{ marginLeft: "1.7vw" }} className="logo-wrapper">
+                <div className="logo-wrapper">
                   <div className="logo-container">
-                    <svg
-                      width="34"
-                      height="35"
-                      viewBox="0 0 24 25"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_252_6672)">
-                        <mask
-                          id="mask0_252_6672"
-                          style={{ maskType: "luminance" }}
-                          maskUnits="userSpaceOnUse"
-                          x="0"
-                          y="0"
-                          width="24"
-                          height="25"
-                        >
-                          <path
-                            d="M24 0.121094H0V24.1211H24V0.121094Z"
-                            fill="white"
-                          />
-                        </mask>
-                        <g mask="url(#mask0_252_6672)">
-                          <path
-                            d="M12 24.1211C5.385 24.1211 0 18.7361 0 12.1211C0 5.50609 5.385 0.121094 12 0.121094C18.615 0.121094 24 5.50609 24 12.1211C24 18.7361 18.615 24.1211 12 24.1211ZM22.12 13.7631C21.77 13.6531 18.95 12.8101 15.736 13.3251C17.076 17.0091 17.623 20.0091 17.728 20.6331C20.028 19.0781 21.664 16.6131 22.123 13.7631H22.12ZM16.005 21.5711C15.852 20.6711 15.255 17.5391 13.815 13.8011L13.749 13.8211C7.959 15.8361 5.889 19.8461 5.709 20.2211C7.439 21.5791 9.629 22.3871 11.999 22.3871C13.419 22.3871 14.769 22.0971 15.999 21.5731L16.005 21.5711ZM4.385 18.9911C4.617 18.5911 7.43 13.9361 12.717 12.2261C12.852 12.1811 12.987 12.1421 13.122 12.1061C12.862 11.5211 12.582 10.9391 12.29 10.3661C7.17 11.8961 2.206 11.8311 1.756 11.8211L1.752 12.1331C1.752 14.7661 2.75 17.1701 4.386 18.9881L4.385 18.9911ZM1.965 10.0361C2.425 10.0441 6.648 10.0621 11.442 8.78809C9.744 5.77009 7.912 3.23009 7.642 2.86009C4.774 4.21009 2.632 6.85009 1.966 10.0301L1.965 10.0361ZM9.6 2.17309C9.882 2.55309 11.745 5.08709 13.422 8.17309C17.067 6.80809 18.612 4.73309 18.795 4.47109C16.985 2.86109 14.605 1.88509 12 1.88509C11.175 1.88509 10.37 1.98509 9.6 2.17009V2.17309ZM19.935 5.65609C19.717 5.94609 18 8.14909 14.211 9.69609C14.451 10.1861 14.681 10.6811 14.891 11.1821C14.971 11.3621 15.041 11.5421 15.111 11.7121C18.521 11.2821 21.911 11.9721 22.251 12.0421C22.231 9.62209 21.371 7.40209 19.941 5.66209L19.935 5.65609Z"
-                            fill="#EA4C89"
-                          />
-                        </g>
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_252_6672">
-                          <rect
-                            width="24"
-                            height="24"
-                            fill="white"
-                            transform="translate(0 0.121094)"
-                          />
-                        </clipPath>
-                      </defs>
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="54" height="40" viewBox="0 0 54 40" fill="none">
+  <path d="M3.63545 40H12.1182V19.3992L0 10.3105V36.3646C0 38.3762 1.62989 40 3.63545 40Z" fill="#4285F4"/>
+  <path d="M41.2031 40H49.6858C51.6975 40 53.3213 38.3702 53.3213 36.3646V10.3105L41.2031 19.3992" fill="#34A853"/>
+  <path d="M41.2031 3.64576V19.3994L53.3213 10.3108V5.46349C53.3213 0.967648 48.1892 -1.59534 44.5962 1.10095" fill="#FBBC04"/>
+  <path d="M12.1172 19.3991V3.64551L26.659 14.5519L41.2008 3.64551V19.3991L26.659 30.3055" fill="#EA4335"/>
+  <path d="M0 5.46349V10.3108L12.1182 19.3994V3.64576L8.72508 1.10095C5.12598 -1.59534 0 0.967648 0 5.46349Z" fill="#C5221F"/>
+</svg>
                   </div>
                 </div>
                 <div className="detail-wrapper">
-                  <h1>Dribble</h1>
-                  <p>Designs and Artwork</p>
+                  <h1>Mail</h1>
+                  <p>Connect with Me</p>
                 </div>
               </div>
             </div>

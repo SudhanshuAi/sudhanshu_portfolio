@@ -92,7 +92,7 @@ const Header = () => {
             >
               <NavLink
                 smooth
-                to="https://drive.google.com/file/d/1c7DGA_6FDbs28mPhPT-MBTKtUF4oTOTd/view?usp=sharing"
+                to="https://drive.google.com/file/d/1k5Cto1uvV1wZNyC6-6mJMvelTkGd5Ov7/view?usp=drive_link"
                 className="nav-link"
                 activeClassName="active"
               >

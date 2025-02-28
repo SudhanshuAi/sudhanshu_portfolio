@@ -1,65 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .nav {
-    display: block;
-    width: 39vw;
-    height: 50px;
-    padding: 3px;
-    border-radius: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(219, 107, 107, 0.08);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 5vh auto;
-    text-align: center; /* Center the content horizontally */
-  }
-  
-  .nav-list {
-    position: relative;
-margin: 0;
-padding: 0;
-
-  }
-  
-.nav-item{
-    display: inline-block;
-    padding: 0px 0px 0px 0px;
-    height: 50px;
-    
+  display: block;
+  width: 590px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(65, 55, 172, 0.8);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 5vh auto;
+  text-align: center;
+  /* Center the content horizontally */
 }
-.nav-link{
-    text-decoration: none;
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 14px; /* 107.692% */
-    letter-spacing: 0.2px;
-    padding: 0 2px 0 2px;
+
+.nav-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
 
 }
 
-.nav-button{
-    background: none;
-    border: none;
-    border-radius: 32px;
-    display: flex;
-    height: 100%;
-width: 100%;
-    padding: 6px 17.5px 6px 17px;
-    align-items: center;
+.nav-item {
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  height: 50px;
+
 }
+
+.nav-link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  /* 107.692% */
+  letter-spacing: 0.2px;
+  padding: 0 2px 0 2px;
+
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  border-radius: 32px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 6px 17.5px 6px 17px;
+  align-items: center;
+}
+
 .clicked {
-    border-radius: 32px;
-background: #171719;
-height: 100%;
-width: 100%;
+  border-radius: 32px;
+  background: #171719;
+  height: 100%;
+  width: 100%;
 
-  }
-  .fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    /* other styles for the fixed header */
-  }
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  /* other styles for the fixed header */
+}

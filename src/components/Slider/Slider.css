@@ -1,171 +1,149 @@
-.mySwiper{
+.mySwiper {
     z-index: 10000;
 }
-.click-wrapper1{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/1.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.project-wrapper {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 15px;
+    height: 100%;
+    z-index: 100000;
+    text-align: center;
+    width: 100%;
 }
-.click-wrapper2{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/2.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.title-wrapper2 {
+
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+
 }
-.click-wrapper3{
+
+.card {
     width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/3.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+    height: 391.64px;
+    /* 261px + 10% */
+    padding: 0 33px 0 33px;
+    /* 30px + 10% */
+    margin-right: 32px;
 }
-.click-wrapper4{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/4.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img0 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/project1.png?updatedAt=1740762314276');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper5{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/5.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img1 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/project2.png?updatedAt=1740762314845');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper6{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/6.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img2 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/project3.png?updatedAt=1740762314836');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper7{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/7.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img3 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/front1.png?updatedAt=1740762314303');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper8{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/8.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img4 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/front2.png?updatedAt=1740762314803');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper9{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/9.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-img5 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/kyempw5oy/front3.png?updatedAt=1740762314299');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
 }
-.click-wrapper10{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/10.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-details {
+    padding: 20px;
+    height: 238.7px;
+    /* 217px + 10% */
+    width: 249.3px;
+    /* 261px + 10% */
+    border-radius: 0 0 22px 22px;
+    /* 20px + 10% */
+    /* Updated border-radius */
+    background: linear-gradient(270deg, rgb(21, 19, 46) 0%, rgb(40, 34, 101) 100%);
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 }
-.click-wrapper11{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/11.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-title {
+    color: var(--Solid-Heading-Dark-mode, #CCC);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0%;
+    /* 92.857% */
 }
-.click-wrapper12{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/12.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper13{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/13.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper14{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/14.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper15{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/15.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper16{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/16.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper17{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/17.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper18{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/18.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper19{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/19.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper20{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/20.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
-}
-.click-wrapper21{
-    width: 286px;
-height: 381.64px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/21.jpg?updatedAt=1698519702142), no-repeat;
-background-size: contain;
+
+.proj-details p {
+    margin-top: 8px;
+    text-align: left;
+    color: var(--Solid-Heading-Dark-mode, #CCC);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
 }

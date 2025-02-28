@@ -1,138 +1,147 @@
-.aboutMe-heading-wrapper{
-    text-align: start;
-    font-family: 'Cabin', sans-serif;
-    font-size: 3.888888888888889vw;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 4.444444444444445vw; /* 114.286% */
-    background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin: 0vh 0vw 0vw 8vw ;
-margin-bottom: 0vh;
+.aboutMe-heading-wrapper {
+  text-align: start;
+  font-family: 'Cabin', sans-serif;
+  font-size: 3.888888888888889vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.444444444444445vw;
+  /* 114.286% */
+  background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0vh 0vw 0vw 8vw;
+  margin-bottom: 0vh;
 }
-.aboutMe-left-box{
-    display: flex;
-width: 49.33263888888889vw;
-align-items: flex-start;
-position: relative;
-border-radius: 12px;
-background: #111019;
-height: 24.65277777777778vw;
-margin-top: 8vh;
-margin-left: 15vh;
-flex-direction: column;
+
+.aboutMe-left-box {
+  display: flex;
+  width: 49.33263888888889vw;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 12px;
+  background: #111019;
+  height: 24.65277777777778vw;
+  margin-top: 8vh;
+  margin-left: 15vh;
+  flex-direction: column;
 }
-.aboutMe-right-box{
-display: flex;
-width: 32.889583333333334vw;
-height: 24.65277777777778vw;
-border-radius: 12px;
-background: #111019;
-margin-top: 8vh;
-margin-right: 5vw;
-flex-direction: column;
+
+.aboutMe-right-box {
+  display: flex;
+  width: 32.889583333333334vw;
+  height: 24.65277777777778vw;
+  border-radius: 12px;
+  background: #111019;
+  margin-top: 8vh;
+  margin-right: 5vw;
+  flex-direction: column;
 }
+
 .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 1px;
-  }
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
 
-  .iLove{
-    width: 82.3vw;
-    height: 30.555555555555557vw;
-    display: block;
-padding: 24px 32px;
-border-radius: 20px;
-background: #131416;
-margin-top: 5vh;
-margin-left: 15vh;
-z-index: -100; 
-  }
+.iLove {
+  width: 82.3vw;
+  height: 442px;
+  display: block;
+  padding: 24px 32px;
+  border-radius: 20px;
+  background: #131416;
+  margin-top: 5vh;
+  margin-left: 15vh;
+  z-index: -100;
+}
 
-  .iLove p{
-    color: #FFF;
-    font-family: 'Cabin', sans-serif;
-font-size: 1.6666666666666667vw;
-font-style: normal;
-font-weight: 600;
-margin-top: 0px;
-margin-bottom: 2.5412960609911055vh;
-margin-left: 0;
-  }
+.iLove p {
+  color: #FFF;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.6666666666666667vw;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 2.5412960609911055vh;
+  margin-left: 0;
+}
 
-  .right-img-box{
-    padding: 16px;
-    width: 3.0555555555555554vw;
-    height: 3.0555555555555554vw;
-border-radius: 16px;
-background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.10);
-margin-top: 8vh;
-margin-left: 4vw;
-  }
+.right-img-box {
+  padding: 16px;
+  width: 3.0555555555555554vw;
+  height: 3.0555555555555554vw;
+  border-radius: 16px;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.10);
+  margin-top: 8vh;
+  margin-left: 4vw;
+}
 
-  .right-img{
-    width: 100%;
-    align-items: center;
-  }
+.right-img {
+  width: 100%;
+  align-items: center;
+}
 
-  .right-detail-wrapper h1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 1.3888888888888888vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.875vw; /* 135% */
-  }
+.right-detail-wrapper h1 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.3888888888888888vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.875vw;
+  /* 135% */
+}
 
-  .right-detail-wrapper p{
-    width: 24.000694444444445vw;
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 1.1111111111111112vw;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.3px;
-margin: 0;
-  }
-  .left-detail-wrapper{
+.right-detail-wrapper p {
+  width: 24.000694444444445vw;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 1.1111111111111112vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.left-detail-wrapper {
   margin-left: 4vw;
   margin-top: 4vh;
-  }
-  
-  .left-detail-wrapper h1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 1.3888888888888888vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 27px; /* 135% */
-  }
+}
 
-  .left-detail-wrapper p{
-    width: 386.39px; 
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size:  0.9722222222222222vw;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.3px;
-margin: 0;
-  }
-  .right-detail-wrapper{
+.left-detail-wrapper h1 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.3888888888888888vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  /* 135% */
+}
+
+.left-detail-wrapper p {
+  width: 386.39px;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 0.9722222222222222vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.right-detail-wrapper {
   margin-left: 4vw;
   margin-top: 4vh;
-  }
+}
 
-  .process{
-    background: url("../../../public//images/div.YourPlayground_image__eVA_d.png");
-    position: absolute;
-    width: 15.833333333333334vw;
-    height: 24.65277777777778vw;
-    right: 0%;
-  }
-  
+.process {
+  background: url("../../../public//images/div.YourPlayground_image__eVA_d.png") no-repeat;
+  position: absolute;
+  width: 15.833333333333334vw;
+  height: 24.65277777777778vw;
+  right: 0%;
+}

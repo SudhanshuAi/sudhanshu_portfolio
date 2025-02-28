@@ -16,13 +16,9 @@ const AboutMe = () => {
             ></img>
           </div>
           <div className="left-detail-wrapper">
-            <h1>Design Process</h1>
+            <h1>Development Process</h1>
             <p>
-              Each team and organization has its unique design and management
-              process. I've been using this process in recent projects to
-              improve efficiency, but I'm open to exploring other methods as
-              well.
-            </p>
+            Each team and organization follows a unique development and management workflow. I've been using this process in recent projects to improve efficiency.</p>
           </div>
         </div>
         <div className="aboutMe-right-box">
@@ -36,14 +32,13 @@ const AboutMe = () => {
           <div className="right-detail-wrapper">
             <h1>My Superpower</h1>
             <p>
-              My Superpowers are to learn anything quickly and make new friends
-              by sharing stories.🥷🏼
+            I have the ability to learn new things quickly and connect with people through storytelling. 🥷🏼
             </p>
           </div>
         </div>
       </div>
       <div className="iLove">
-        <p>Sometimes I ❤️ To Capture </p>
+        <p>Other Projects 🚀</p>
         <Slider />
       </div>
     </section>
