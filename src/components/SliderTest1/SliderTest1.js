@@ -26,127 +26,69 @@ const SliderTest1 = () => {
         className="mySwiper1"
       >
         <SwiperSlide>
-          <div className="test-wrapper">
+          <div className="test2-wrapper">
             <img
               className="userImg"
               src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/q-f9bd42b4.png.png?updatedAt=1698526291196"
             ></img>
             <div className="user-wrapper">
-              <h1>Lorem Ipsum</h1>
-              <p>@Lorm</p>
+              <h1>Shashidhar Pande</h1>
+              <p>Sr. Business Analyst</p>
             </div>
             <div className="review-wrapper">
               <p>
-                Really, really liking{" "}
-                <span
-                  style={{
-                    color: "#9382FF",
-                    fontFamily: "Inter",
-                    fontSize: "13px",
-                    fontStyle: "normal",
-                    fontQWight: "400",
-                    lineHeight: "24px",
-                  }}
-                >
-                  @reflectnotes
-                </span>{" "}
-                so far. It's just the right amount of simple/fast for a personal
-                note taking app and does most of the hard work of organizing in
-                the background.
+                Sudhanshu showcased excellent technical and problem-solving skills while working with our team. A dedicated and reliable professional, they would be a great addition to any team.
               </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="test-wrapper">
+          <div className="test2-wrapper">
             <img
               className="userImg"
               src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/q-f9bd42b4.png.png?updatedAt=1698526291196"
             ></img>
             <div className="user-wrapper">
-              <h1>Lorem Ipsum</h1>
-              <p>@Lorm</p>
+              <h1>Ashutosh Mishra</h1>
+              <p>Project Manager</p>
             </div>
             <div className="review-wrapper">
               <p>
-                Don’t take it from me:{" "}
-                <span
-                  style={{
-                    color: "#9382FF",
-                    fontFamily: "Inter",
-                    fontSize: "13px",
-                    fontStyle: "normal",
-                    fontQWight: "400",
-                    lineHeight: "24px",
-                  }}
-                >
-                  @reflectnotes
-                </span>{" "}
-                is magic.
+                Sudhanshu was an exceptional intern during the development of the Fantail P application. Their strong frontend skills, problem-solving ability, and dedication made them a valuable asset.
               </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="test-wrapper">
+          <div className="test2-wrapper">
             <img
               className="userImg"
               src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/q-f9bd42b4.png.png?updatedAt=1698526291196"
             ></img>
             <div className="user-wrapper">
-              <h1>Lorem Ipsum</h1>
-              <p>@Lorm</p>
+              <h1>Sanjeev Pathak</h1>
+              <p>Delivery Head</p>
             </div>
             <div className="review-wrapper">
               <p>
-                Playing around with{" "}
-                <span
-                  style={{
-                    color: "#9382FF",
-                    fontFamily: "Inter",
-                    fontSize: "13px",
-                    fontStyle: "normal",
-                    fontQWight: "400",
-                    lineHeight: "24px",
-                  }}
-                >
-                  @reflectnotes.
-                </span>{" "}
-                I’m back logging key thoughts, details and soundbites from
-                episodes, books, meetings, articles, etc from the past week. So
-                far, it’s a knowledge worker’s dream come true.
+                Sudhanshu consistently delivered high-quality work with great attention to detail. Their technical expertise and problem-solving skills made them a valuable asset to the team.
               </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="test-wrapper">
+          <div className="test2-wrapper">
             <img
               className="userImg"
               src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/q-f9bd42b4.png.png?updatedAt=1698526291196"
             ></img>
             <div className="user-wrapper">
-              <h1>Lorem Ipsum</h1>
-              <p>@Lorm</p>
+              <h1>Prathamesh Bhagat</h1>
+              <p>Application Support Lead</p>
             </div>
             <div className="review-wrapper">
               <p>
-                Really, really liking{" "}
-                <span
-                  style={{
-                    color: "#9382FF",
-                    fontFamily: "Inter",
-                    fontSize: "13px",
-                    fontStyle: "normal",
-                    fontQWight: "400",
-                    lineHeight: "24px",
-                  }}
-                >
-                  @reflectnotes
-                </span>{" "}
-                so far. It's just the right amount of simple/fast for a personal
-                note taking app and does most of the hard work of organizing in
-                the background.
+                Sudhanshu was a reliable and skilled developer, always proactive in solving challenges. Their collaboration and technical expertise made a positive impact on the team.
               </p>
             </div>
           </div>

@@ -74,7 +74,7 @@ const Footer = () => {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            href="https://twitter.com/Ayush_shivhare1"
+            href="https://x.com/sudhanshu7v"
           >
             <div className="social-wrapper2">
               <div className="">

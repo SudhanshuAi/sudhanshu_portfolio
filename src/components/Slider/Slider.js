@@ -32,12 +32,10 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img0"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Budget Tracker</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
-                </p>
+              A financial management platform built using Next.js, PostgreSQL, and Prisma ORM, enabling users to efficiently track their expenses and categorize transactions.
+              </p>
               </div>
             </div>
             </a>
@@ -48,11 +46,9 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img1"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Evently</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
+              A comprehensive event management platform developed with Next.js, TypeScript, and MongoDB, offering secure authentication via Clerk and seamless event categorization.
                 </p>
               </div>
             </div>
@@ -64,11 +60,9 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img2"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Real Estate</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
+              A MERN-stack-based real estate platform facilitating property listing, searching, renting, and purchasing. Designed and implemented advanced filtering for location, price, and property type.
                 </p>
               </div>
             </div>
@@ -80,11 +74,9 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img3"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Food Cart</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
+              A responsive and user-friendly frontend for a food cart, enabling seamless menu browsing. Designed an intuitive UI optimized for mobile users, ensuring a smooth and engaging customer experience..
                 </p>
               </div>
             </div>
@@ -96,11 +88,9 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img4"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Banking Page</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
+              Designed and developed a responsive, and user-friendly banking page. Focused on intuitive UI/UX, ensuring easy navigation and a smooth user experience.
                 </p>
               </div>
             </div>
@@ -112,12 +102,10 @@ const Slider = () => {
         <div className="card">
               <div className="proj-img5"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Profill</h1>
+              <h1 className="proj-title">Dashboard</h1>
               <p className="proj-desc">
-                  Live and operational, Profill reduces students’ application
-                  time by 60%, enhancing efficiency and streamlining the college
-                  application process.
-                </p>
+              Developed a dynamic and responsive dashboard using React, featuring interactive data visualization. Designed an intuitive UI/UX for efficient data management and navigation.
+              </p>
               </div>
             </div>
             </a>
