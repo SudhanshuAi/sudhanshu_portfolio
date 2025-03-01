@@ -2,7 +2,8 @@
 
 .nav {
   display: block;
-  width: 590px;
+  width: 90%;
+  max-width: 590px;
   height: 50px;
   padding: 3px;
   border-radius: 32px;
@@ -18,28 +19,28 @@
   position: relative;
   margin: 0;
   padding: 0;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .nav-item {
   display: inline-block;
   padding: 0px 0px 0px 0px;
   height: 50px;
-
 }
 
 .nav-link {
   text-decoration: none;
   color: #FFF;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 14px;
   /* 107.692% */
   letter-spacing: 0.2px;
   padding: 0 2px 0 2px;
-
 }
 
 .nav-button {
@@ -58,7 +59,6 @@
   background: #171719;
   height: 100%;
   width: 100%;
-
 }
 
 .fixed-header {
@@ -68,4 +68,54 @@
   right: 0;
   z-index: 999;
   /* other styles for the fixed header */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 95%;
+    height: auto;
+    padding: 5px;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    height: 40px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .nav-button {
+    padding: 4px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    width: 98%;
+    border-radius: 20px;
+  }
+  
+  .nav-list {
+    padding: 2px;
+  }
+  
+  .nav-item {
+    height: 36px;
+  }
+  
+  .nav-link {
+    font-size: 12px;
+  }
+  
+  .nav-button {
+    padding: 3px 8px;
+  }
 }

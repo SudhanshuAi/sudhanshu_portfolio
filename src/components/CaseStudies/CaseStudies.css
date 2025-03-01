@@ -4,10 +4,10 @@
 .case-heading-wrapper {
     text-align: start;
     font-family: 'Cabin', sans-serif;
-    font-size: 3.888888888888889vw;
+    font-size: clamp(1.8rem, 3.9vw, 3.5rem);
     font-style: normal;
     font-weight: 700;
-    line-height: 4.444444444444445vw;
+    line-height: 1.2;
     /* 114.286% */
     background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
     background-clip: text;
@@ -27,10 +27,10 @@
 .cases p {
     color: rgba(219, 219, 219, 0.60);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 1.8055555555555556vw;
+    font-size: clamp(1rem, 1.8vw, 2rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 2.2222222222222223vw;
+    line-height: 1.5;
     /* 123.077% */
     margin-top: 0px;
     margin-bottom: 0px;
@@ -40,10 +40,10 @@
 .cases h1 {
     color: #FFF;
     font-family: Cabin;
-    font-size: 2.2222222222222223vw;
+    font-size: clamp(1.2rem, 2.2vw, 2.5rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 3.3333333333333335vw;
+    line-height: 1.5;
     /* 150% */
     margin-top: 1vh;
 }
@@ -67,4 +67,53 @@
     /* Scale up the element on hover */
     cursor: pointer;
     /* Change cursor to a pointer on hover */
+    transition: transform 0.3s ease;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    .case-heading-wrapper {
+        margin-left: 5vw;
+    }
+    
+    .case-study-wrapper {
+        width: 90%;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .case-heading-wrapper {
+        margin-left: 3vw;
+        text-align: center;
+    }
+    
+    .case-study-wrapper {
+        width: 94%;
+        margin-left: 3vw;
+    }
+    
+    .cases img {
+        top: 5vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .case-heading-wrapper {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .case-study-wrapper {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .cases img {
+        width: 36px;
+        height: 26px;
+        top: 3vh;
+    }
 }

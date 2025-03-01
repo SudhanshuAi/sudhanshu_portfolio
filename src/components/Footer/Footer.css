@@ -11,16 +11,15 @@
 .touch-heading-wrapper h1 {
     text-align: start;
     font-family: 'Cabin', sans-serif;
-    font-size: 3.888888888888889vw;
+    font-size: clamp(1.8rem, 3.9vw, 3.5rem);
     font-style: normal;
     font-weight: 700;
-    line-height: 4.444444444444445vw;
+    line-height: 1.2;
     /* 114.286% */
     background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .logo-container {
@@ -43,18 +42,25 @@
 
 .social-wrapper1 {
     background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/div.integrations-item2.png?updatedAt=1698556941156);
-    width: 468px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 468px;
     height: 203.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5vh;
-
 }
 
 .social-wrapper2 {
     background: url(https://ik.imagekit.io/mtmwll7w3/ayushShivhare/div.integrations-item.png?updatedAt=1698552431319);
-    width: 468px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 468px;
     height: 203.5px;
     display: flex;
     flex-direction: column;
@@ -67,9 +73,7 @@
 
 .detail-wrapper {
     text-align: center;
-
 }
-
 
 .detail-wrapper p {
     color: rgba(239, 237, 253, 0.70);
@@ -83,13 +87,14 @@
 }
 
 .social-parent {
-
-    width: 70vw;
+    width: 90%;
+    max-width: 70vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 16vh auto;
+    gap: 20px;
 }
 
 .centreIt {
@@ -102,9 +107,6 @@
     margin-left: 1vw;
     /* Center .logo-wrapper horizontally */
 }
-
-
-
 
 .social-butt {
     background: none;
@@ -120,4 +122,59 @@
     /* Change cursor to a pointer on hover */
     border: 1px solid #9382FF;
     border-radius: 32px;
+    transition: transform 0.3s ease;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    .touch-heading-wrapper {
+        margin: 0vh 0vw 0vh 5vw;
+    }
+    
+    .social-parent {
+        max-width: 90vw;
+        margin: 10vh auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .touch-heading-wrapper {
+        margin: 0vh 0vw 0vh 3vw;
+    }
+    
+    .touch-heading-wrapper h1 {
+        text-align: center;
+    }
+    
+    .social-parent {
+        max-width: 95vw;
+        flex-direction: column;
+        margin: 8vh auto;
+    }
+    
+    .social-wrapper1, .social-wrapper2 {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .touch-heading-wrapper {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .social-parent {
+        width: 100%;
+        margin: 5vh auto;
+    }
+    
+    .social-wrapper1, .social-wrapper2 {
+        height: 150px;
+    }
+    
+    .logo-container {
+        width: 36px;
+        height: 36px;
+        padding: 15px;
+    }
 }

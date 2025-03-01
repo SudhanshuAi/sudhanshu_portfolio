@@ -1,10 +1,10 @@
 .aboutMe-heading-wrapper {
   text-align: start;
   font-family: 'Cabin', sans-serif;
-  font-size: 3.888888888888889vw;
+  font-size: clamp(1.8rem, 3.9vw, 3.5rem);
   font-style: normal;
   font-weight: 700;
-  line-height: 4.444444444444445vw;
+  line-height: 1.2;
   /* 114.286% */
   background: linear-gradient(180deg, #FFF 22.5%, rgba(255, 255, 255, 0.70) 100%);
   background-clip: text;
@@ -42,11 +42,13 @@
   display: flex;
   justify-content: space-between;
   gap: 1px;
+  flex-wrap: wrap;
 }
 
 .iLove {
   width: 82.3vw;
-  height: 442px;
+  height: auto;
+  min-height: 300px;
   display: block;
   padding: 24px 32px;
   border-radius: 20px;
@@ -59,11 +61,11 @@
 .iLove p {
   color: #FFF;
   font-family: 'Cabin', sans-serif;
-  font-size: 1.6666666666666667vw;
+  font-size: clamp(1rem, 1.7vw, 1.8rem);
   font-style: normal;
   font-weight: 600;
   margin-top: 0px;
-  margin-bottom: 2.5412960609911055vh;
+  margin-bottom: 2.5vh;
   margin-left: 0;
 }
 
@@ -85,10 +87,10 @@
 .right-detail-wrapper h1 {
   color: #FFF;
   font-family: Inter;
-  font-size: 1.3888888888888888vw;
+  font-size: clamp(1rem, 1.4vw, 1.6rem);
   font-style: normal;
   font-weight: 600;
-  line-height: 1.875vw;
+  line-height: 1.5;
   /* 135% */
 }
 
@@ -96,11 +98,10 @@
   width: 24.000694444444445vw;
   color: rgba(255, 255, 255, 0.80);
   font-family: Inter;
-  font-size: 1.1111111111111112vw;
+  font-size: clamp(0.9rem, 1.1vw, 1.3rem);
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.3px;
   margin: 0;
 }
@@ -113,22 +114,22 @@
 .left-detail-wrapper h1 {
   color: #FFF;
   font-family: Inter;
-  font-size: 1.3888888888888888vw;
+  font-size: clamp(1rem, 1.4vw, 1.6rem);
   font-style: normal;
   font-weight: 600;
-  line-height: 27px;
+  line-height: 1.5;
   /* 135% */
 }
 
 .left-detail-wrapper p {
-  width: 386.39px;
+  width: 100%;
+  max-width: 386.39px;
   color: rgba(255, 255, 255, 0.80);
   font-family: Inter;
-  font-size: 0.9722222222222222vw;
+  font-size: clamp(0.8rem, 1vw, 1.2rem);
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.3px;
   margin: 0;
 }
@@ -140,8 +141,95 @@
 
 .process {
   background: url("../../../public//images/div.YourPlayground_image__eVA_d.png") no-repeat;
+  background-size: cover;
   position: absolute;
   width: 15.833333333333334vw;
   height: 24.65277777777778vw;
   right: 0%;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+  .aboutMe-heading-wrapper {
+    margin-left: 5vw;
+  }
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutMe-left-box, .aboutMe-right-box {
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    margin: 4vh auto;
+  }
+  
+  .aboutMe-left-box {
+    margin-left: auto;
+  }
+  
+  .aboutMe-right-box {
+    margin-right: auto;
+  }
+  
+  .iLove {
+    width: 80%;
+    margin: 5vh auto;
+  }
+  
+  .right-detail-wrapper p, .left-detail-wrapper p {
+    width: 90%;
+  }
+  
+  .process {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe-heading-wrapper {
+    margin-left: 3vw;
+    text-align: center;
+  }
+  
+  .aboutMe-left-box, .aboutMe-right-box {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .iLove {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .right-img-box {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+  }
+  
+  .left-detail-wrapper, .right-detail-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutMe-heading-wrapper {
+    margin-left: 0;
+  }
+  
+  .aboutMe-left-box, .aboutMe-right-box {
+    width: 95%;
+    padding: 15px;
+  }
+  
+  .iLove {
+    width: 95%;
+    padding: 15px;
+  }
 }

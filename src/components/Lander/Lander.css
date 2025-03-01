@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;600;700&display=swap');
 
 .lander-wrapper {
-    width: 100vw;
+    width: 100%;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .lander-grid-wrapper {
@@ -12,7 +13,9 @@
 }
 
 img {
-    width: 89%;
+    max-width: 89%;
+    width: auto;
+    height: auto;
 }
 
 .polygon-wrapper {
@@ -31,7 +34,7 @@ img {
 .name {
     color: #FFF;
     font-family: 'Cabin', sans-serif;
-    font-size: 7.777777777777778vw;
+    font-size: clamp(2.5rem, 7.8vw, 7rem);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -42,11 +45,10 @@ img {
 
 .prod-des {
     font-family: 'Cabin', sans-serif;
-    font-size: 2.2222222222222223vw;
+    font-size: clamp(1.2rem, 2.2vw, 2.5rem);
     font-style: normal;
     font-weight: 700;
-    line-height: 5.333333333333333vw;
-    /* 240% */
+    line-height: 1.5;
     text-transform: uppercase;
     opacity: 0.9;
     background: linear-gradient(135deg, #4538E3 0%, #CE9FFC 100%);
@@ -63,17 +65,17 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 0 1rem;
 }
 
 .short-about-wrapper span {
     color: #CDCDCD;
     text-align: center;
     font-family: 'Cabin', sans-serif;
-    font-size: 1.6666666666666667vw;
+    font-size: clamp(1rem, 1.7vw, 1.8rem);
     font-style: normal;
     font-weight: 500;
-    line-height: 2.9166666666666665vw;
+    line-height: 1.5;
     display: block;
 }
 
@@ -81,18 +83,23 @@ img {
     z-index: 100;
     color: #FFF;
     font-family: Cabin;
-    font-size: 0.9722222222222222vw;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
     font-style: normal;
     font-weight: 600;
-    line-height: 1.6666666666666667vw;
-    /* 171.429% */
-    padding: 4px 16px;
+    line-height: 1.5;
+    padding: 8px 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 32px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.get-in-touch:hover {
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .land-btn-wrapper {
@@ -109,17 +116,17 @@ img {
     width: 100%;
     height: 100%;
     margin-top: 4vh;
+    padding: 0 1rem;
 }
 
 .companies-wrapper p {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-family: Cabin;
-    font-size: 1.25vw;
+    font-size: clamp(0.9rem, 1.25vw, 1.4rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 1.9444444444444444vw;
-    /* 155.556% */
+    line-height: 1.5;
     margin-bottom: 3rem;
 }
 
@@ -139,4 +146,48 @@ img {
     width: 203px;
     margin: 0 5rem 0.5rem 5rem;
     flex-shrink: 0;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .lander-grid-wrapper {
+        margin-top: 8vh;
+    }
+    
+    .polygon-wrapper {
+        top: 15vh;
+    }
+    
+    .polygon {
+        width: 80px;
+        height: 72px;
+    }
+    
+    .comp1, .comp2, .comp3 {
+        margin: 0 2rem 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lander-grid-wrapper {
+        margin-top: 6vh;
+    }
+    
+    .polygon-wrapper {
+        top: 12vh;
+    }
+    
+    .polygon {
+        width: 60px;
+        height: 54px;
+    }
+    
+    .comp1, .comp2, .comp3 {
+        margin: 0 1rem 1rem 1rem;
+        width: 120px;
+    }
+    
+    .companies-wrapper p {
+        margin-bottom: 1.5rem;
+    }
 }
