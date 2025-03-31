@@ -3,7 +3,7 @@ import "../CaseStudies/CaseStudies.css";
 const CaseStudies = () => {
   return (
     <section style={{ paddingTop: "15vh" }} id="work">
-      <h1 className="case-heading-wrapper">Expirience & Projects</h1>
+      <h1 className="case-heading-wrapper">Experience & Projects</h1>
       <div className="case-study-wrapper">
         <a
           style={{ textDecoration: "none" }}
