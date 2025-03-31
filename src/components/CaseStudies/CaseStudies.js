@@ -64,7 +64,7 @@ const CaseStudies = () => {
         <a
           style={{ textDecoration: "none" }}
           target="_blank"
-          href="https://www.google.com/url?sa=D&q=https://event-organisation-app.vercel.app/&ust=1740854520000000&usg=AOvVaw0pcsjsbcAVv9HErsSRZOZM&hl=en&source=gmail"
+          href="https://tsk-atln.vercel.app/"
         >
           <div className="cases">
             <div className="link">
@@ -74,13 +74,12 @@ const CaseStudies = () => {
               ></img>
             </div>
             <p>Personal Project</p>
-            <h1>Evently: Event Organization Application | Typescript, NextJs, Node.js, TailwindCSS, MongoDB</h1>
+            <h1>SQL Query Runner | ReactJs, JavaScript, CSS, Zustand</h1>
             <ul>
-              <li><p style={{fontSize:"18px",width:"90%"}}>Developed an App with robust features such as Authentication with Clerk for secure user management,
-              comprehensive Events functionality and categorization of events</p></li>
+              <li><p style={{fontSize:"18px",width:"90%"}}>Developed a SQL Query Runner with Zustand state management, implementing debounced search functionality and optimized query filtering based on bookmarked and recent status</p></li>
             </ul>
             <ul>
-              <li><p style={{fontSize:"18px",width:"90%"}}>Integrated Stripe for secure payments with a 99% success rate and enhanced event discovery efficiency by 20%.</p></li>
+              <li><p style={{fontSize:"18px",width:"90%"}}>Enhanced user experience by designing a responsive UI, including a sidebar for query navigation and a results viewer for efficient data display and interaction</p></li>
             </ul>
             <hr />
           </div>

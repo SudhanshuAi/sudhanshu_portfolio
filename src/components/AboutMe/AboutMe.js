@@ -4,36 +4,45 @@ import Slider from "../Slider/Slider";
 const AboutMe = () => {
   return (
     <section style={{ paddingTop: "15vh" }} id="about">
-      <h1 className="aboutMe-heading-wrapper">More About Me</h1>
-      <div className="container">
-        <div className="aboutMe-left-box">
-          <div className="process"></div>
-          <div className="right-img-box">
-            <img
-              className="right-img"
-              src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/Vector(1).svg?updatedAt=1698566245571"
-              alt=""
-            ></img>
+      <div className="tech-stack-container">
+        <div className="tech-stack-content">
+          <div className="tech-stack-header">
+            <span className="tech-stack-icon">✦</span>
+            <h1 className="tech-stack-heading">My Tech Stacks</h1>
           </div>
-          <div className="left-detail-wrapper">
-            <h1>Development Process</h1>
-            <p>
-            Each team and organization follows a unique development and management workflow. I've been using this process in recent projects to improve efficiency.</p>
-          </div>
-        </div>
-        <div className="aboutMe-right-box">
-          <div className="right-img-box">
-            <img
-              alt=""
-              className="right-img"
-              src="https://ik.imagekit.io/mtmwll7w3/ayushShivhare/Vector.svg?updatedAt=1698564111650"
-            ></img>
-          </div>
-          <div className="right-detail-wrapper">
-            <h1>My Superpower</h1>
-            <p>
-            I have the ability to learn new things quickly and connect with people through storytelling. 🥷🏼
-            </p>
+          <p className="tech-stack-description">
+          Crafting scalable, high-performance applications with cutting-edge web technologies : from sleek frontends to robust backend
+          </p>
+          <div className="tech-stack-grid">
+            {/* First row */}
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="GitHub" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="Skype" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://ik.imagekit.io/kyempw5oy/Icon/nextjs-icon-svgrepo-com.png?updatedAt=1743440318450" alt="Discord" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=b6vIINYN0kfW&format=png&color=000000" alt="Discord" />
+            </div>
+            
+            
+            
+            {/* Second row */}
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="GitHub" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="Skype" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="Discord" />
+            </div>
+            <div className="tech-stack-item">
+              <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Discord" />
+            </div>
           </div>
         </div>
       </div>

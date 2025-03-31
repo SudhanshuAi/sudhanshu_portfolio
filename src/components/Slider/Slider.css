@@ -20,6 +20,18 @@
 
 }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    transform: translateY(-5px);
+}
+
 .card {
     width: 286px;
     height: 391.64px;
@@ -50,7 +62,7 @@
     /* 182px + 10% */
     border-radius: 22px 22px 0 0;
     /* 20px + 10% */
-    background-image: url('https://ik.imagekit.io/kyempw5oy/project2.png?updatedAt=1740762314845');
+    background-image: url('https://ik.imagekit.io/kyempw5oy/sql.jpg?updatedAt=1743432755438');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

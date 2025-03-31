@@ -28,7 +28,7 @@ const Slider = () => {
       >
         <SwiperSlide>
         {" "}
-        <a>
+        <a href="https://budget-tracker-green-two.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img0"></div>
               <div className="proj-details">
@@ -42,35 +42,35 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         {" "}
-        <a>
+        <a href="https://tsk-atln.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img1"></div>
               <div className="proj-details">
-              <h1 className="proj-title">Evently</h1>
+              <h1 className="proj-title">SQL Query Runner</h1>
               <p className="proj-desc">
-              A comprehensive event management platform developed with Next.js, TypeScript, and MongoDB, offering secure authentication via Clerk and seamless event categorization.
-                </p>
+              A SQL Query Runner with Zustand state management, implementing debounced search functionality and optimized query filtering based on bookmarked and recent status
+              </p>
               </div>
             </div>
             </a>
         </SwiperSlide>
         <SwiperSlide>
         {" "}
-        <a>
+        <a href="https://github.com/SudhanshuAi/Real_Estate" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img2"></div>
               <div className="proj-details">
               <h1 className="proj-title">Real Estate</h1>
               <p className="proj-desc">
               A MERN-stack-based real estate platform facilitating property listing, searching, renting, and purchasing. Designed and implemented advanced filtering for location, price, and property type.
-                </p>
+              </p>
               </div>
             </div>
             </a>
         </SwiperSlide>
         <SwiperSlide>
         {" "}
-        <a>
+        <a href="https://food-cart-lake.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img3"></div>
               <div className="proj-details">
@@ -84,7 +84,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         {" "}
-        <a>
+        <a href="https://banking-app-zeta-seven.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img4"></div>
               <div className="proj-details">
@@ -98,7 +98,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         {" "}
-        <a href="">
+        <a href="https://rbac-ui-xi-eight.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
         <div className="card">
               <div className="proj-img5"></div>
               <div className="proj-details">
